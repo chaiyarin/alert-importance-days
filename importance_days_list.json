@@ -1,0 +1,176 @@
+[
+    {
+        "nickname": "โอปอล์",
+        "importance_day": "1993-02-18",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ปิ้ง",
+        "importance_day": "1993-02-06",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "บอล",
+        "importance_day": "1993-07-15",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ต้นเตย",
+        "importance_day": "1993-02-17",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ลี",
+        "importance_day": "0000-00-00",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "เฟิส",
+        "importance_day": "0000-00-00",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "จิน",
+        "importance_day": "1993-11-11",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วิว",
+        "importance_day": "1993-10-18",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "พี่โน",
+        "importance_day": "1993-10-06",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "พี่แอ้",
+        "importance_day": "0000-00-00",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "พี่จิ๋ว",
+        "importance_day": "0000-00-00",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "เพ้นท์",
+        "importance_day": "0000-00-00",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ลูกไม้",
+        "importance_day": "0000-00-00",
+        "type": "birthday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ชดเชยวันสิ้นปีและวันขึ้นปีใหม่",
+        "importance_day": "1993-01-02",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "​วันมาฆบูชา",
+        "importance_day": "1003-03-06",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันพระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราชและวันที่ระลึกมหาจักรีบรมราชวงศ์",
+        "importance_day": "1003-04-06",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันสงกรานต์",
+        "importance_day": "1003-03-13",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันสงกรานต์",
+        "importance_day": "1003-04-14",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันแรงงานแห่งชาติ",
+        "importance_day": "1003-05-01",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันฉัตรมงคล",
+        "importance_day": "1003-05-04",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันหยุดพิเศษ(เพิ่มเติม)",
+        "importance_day": "1003-05-05",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ชดเชยวันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสุทิดาพัชรสุธาพิมลลักษณพระบรมราชินีและวันวิสาขบูชา(วันเสาร์ที่3มิถุนายน2566)",
+        "importance_day": "1003-06-05",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันเฉลิมพระชนมพรรษาพระบาทสมเด็จพระเจ้าอยู่หัว",
+        "importance_day": "1003-07-28",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "​วันอาสาฬหบูชา",
+        "importance_day": "1003-08-01",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ชดเชยวันเฉลิมพระชนมพรรษาสมเด็จพระนางเจ้าสิริกิติ์พระบรมราชินีนาถพระบรมราชชนนีพันปีหลวงและวันแม่แห่งชาติ(วันเสาร์ที่12สิงหาคม2566)",
+        "importance_day": "1003-08-14",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันคล้ายวันสวรรคตพระบาทสมเด็จพระบรมชนกาธิเบศรมหาภูมิพลอดุลยเดชมหาราชบรมนาถบพิตร",
+        "importance_day": "1003-10-13",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันปิยมหาราช",
+        "importance_day": "1003-10-23",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "วันคล้ายวันพระบรมราชสมภพพระบาทสมเด็จพระบรมชนกาธิเบศรมหาภูมิพลอดุลยเดชมหาราชบรมนาถบพิตรวันชาติและวันพ่อแห่งชาติ",
+        "importance_day": "1003-12-05",
+        "type": "holiday",
+        "importance_message": ""
+    },
+    {
+        "nickname": "ชดเชยวันรัฐธรรมนูญ(วันอาทิตย์ที่10ธันวาคม2566)",
+        "importance_day": "1003-12-11",
+        "type": "holiday",
+        "importance_message": ""
+    }
+]
