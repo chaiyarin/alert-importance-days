@@ -15,33 +15,55 @@ for record in $(echo "${json}" | jq -c '.[]'); do
     importance_day=$(echo "${record}" | jq -r '.importance_day')
     nickname=$(echo "${record}" | jq -r '.nickname')
     type=$(echo "${record}" | jq -r '.type')
+    importance_message=$(echo "${record}" | jq -r '.importance_message')
 
     # Extract the month and day fields from the importance_day date
     month=$(echo "${importance_day}" | awk -F'-' '{print $2}')
     day=$(echo "${importance_day}" | awk -F'-' '{print $3}')
+    year=$(echo "${importance_day}" | awk -F'-' '{print $1}')
 
     # Format the month and day fields as "MM-DD"
     importance_day_month_day="${month}-${day}"
+    importance_day_month_year="${year}-${month}-${day}"
 
     # Check if today is the person's importance_day
     today=$(date +'%m-%d')
+    todayFull=$(date +'%Y-%m-%d')
+    echo $todayFull
+    echo $importance_day_month_year
 
     if [ "${today}" == "${importance_day_month_day}" ]; then
+
         final_message=""
+
         if [ "${type}" == "birthday" ]; then
 
             random_index=$((RANDOM % ${#messages[@]}))
             message="${messages[random_index]}"
-
             message=$(echo "${message}" | sed "s/nickname/${nickname}/g")
-
             final_message="🎉🎉🎉 วันนี้เป็นวันเกิดของ ${nickname} 🎁 🎂 ${message}"
+
+        elif [ "${type}" == "alert" ]; then
+            if [ "${todayFull}" == "${importance_day_month_year}" ]; then
+                final_message="🚨🚨🚨 แจ้งเตือน : ${importance_message} 🚨🚨🚨"
+            fi
         else
+
             final_message="🎉🎉🎉 วันนี้เป็นวันหยุดงาน เนื่องจาก เป็น : ${nickname} 🎉🎉🎉 "
+
         fi
-        curl -X POST \
-            -H "Authorization: Bearer $LINE_NOTIFY_ACCESS_TOKEN" \
-            -F "message=$final_message" \
-            https://notify-api.line.me/api/notify
+
+        # Check if the string is empty
+        if [ -z "${final_message}" ]; then
+            # If the string is empty, print a message
+            echo "The string is empty"
+        else
+            curl -X POST \
+                -H "Authorization: Bearer $LINE_NOTIFY_ACCESS_TOKEN" \
+                -F "message=$final_message" \
+                https://notify-api.line.me/api/notify
+        fi
+
+        final_message=""
     fi
 done

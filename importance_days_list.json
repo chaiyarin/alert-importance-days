@@ -97,7 +97,7 @@
     },
     {
         "nickname": "วันสงกรานต์",
-        "importance_day": "1003-03-13",
+        "importance_day": "1003-04-13",
         "type": "holiday",
         "importance_message": ""
     },
@@ -172,5 +172,11 @@
         "importance_day": "1003-12-11",
         "type": "holiday",
         "importance_message": ""
+    },
+    {
+        "nickname": "พี่แอ้แจ้งเตือน",
+        "importance_day": "2023-03-16",
+        "type": "alert",
+        "importance_message": "วันนี้ VPN จะไม่สามารถใช้งานได้อีกต่อไป ให้เปลี่ยน Gateway จาก IP ADDRESS = 161.82.163.9 เป็น phahonyothin.sec.or.th"
     }
 ]
