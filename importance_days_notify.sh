@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LINE_NOTIFY_ACCESS_TOKEN="YOUR_TOKEN"
+LINE_NOTIFY_ACCESS_TOKEN="MRKqIY2hW6GrjZ5PGlzNIKrP2sZMzqoYPYZVicE9RAJ"
 
 # Read the JSON file
 json=$(cat importance_days_list.json)
